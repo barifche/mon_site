@@ -19,6 +19,11 @@ ul
 {
   list-style: none;
 }
+h2
+{
+    color: #444;
+    font-size: 50px;
+}
 h1
 {
     font-family: Arial, serif;
@@ -72,4 +77,35 @@ header nav ul li a
     text-transform: uppercase;
     font-weight: bold;
     margin-right: 20px;
+}
+
+/* MAIN IMAGE */
+#main-image
+{
+    height: 580px;
+    background: url(Images/original.jpg) center;
+
+}
+#main-image h2
+{
+  font-weight: normal;
+  text-transform: uppercase;
+  text-align: center;
+  padding: 150px 0 40px 0;
+  margin-bottom: 20px;
+}
+.button-1
+{
+    display: block;
+    width: 120px;
+    height: 50px;
+    background: #ff7a00;
+    color: #fff;
+    font-size: 40px;
+    margin: 0 auto;
+    line-height: 50px ;
+    
+   text-align: center; 
+   border-radius: 3px;
+    
 }
